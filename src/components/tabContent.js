@@ -10,7 +10,7 @@ export default function TabContent(props) {
                     <h3>{name}</h3>
                     <h4>Rating: {rating}</h4>
                     <p>{description}</p>
-                    {key !== props.list.length? <hr></hr>: null}
+                    {key !== props.list.length - 1 ? <hr></hr>: null}
                 </li> 
              ))}
             </ul>
