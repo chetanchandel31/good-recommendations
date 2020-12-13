@@ -67,3 +67,7 @@
     list-style: none;
     padding-inline-start: 0px;
 }
+
+hr{
+    border: 1px solid #EDE9FE;
+}
