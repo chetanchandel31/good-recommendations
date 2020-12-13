@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Button from './components/button';
+import TabContainer from './components/tabContainer';
+import style from './style.module.css';
 
 function App() {
+  const [tab, setTab] = React.useState();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className={style.containerFirst}>
+      
+      <header className={style.header}>
+        <h1>Good recommendations</h1>
       </header>
+
+      <div className={style.containerBtn}>
+        <Button btnName='Anime' tab={tab} setTab={setTab}/>
+        <Button btnName='Books' tab={tab} setTab={setTab}/>
+        <Button btnName='Games' tab={tab} setTab={setTab}/>
+      </div>
+
+      <section>
+        <TabContainer tab={tab}/>
+      </section>
     </div>
-  );
+    );
 }
 
 export default App;

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.containerFirst {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    padding-bottom: 2rem;
+    background-color: #EDE9FE;
+}
+
+.containerCenter{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 1rem;
+}
+
+/* .img{
+    max-width: 20%;
+    border-radius: 0.5rem;
+    float: left;
+} */
+
+.header {
+    background-color: #4C1D95;
+    padding: 1rem;
+    border-radius: 0 0 1rem 0;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.inlineHeading{
+    display: inline;
+}
+
+.containerBtn {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.btnUnselected {
+    border: 1px solid #4c1d95;
+    background-color: white;
+    color: hsl(264, 67%, 35%);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.btnSelected {
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    margin: 1rem;
+    border: 1px solid #4c1d95;
+    background-color: #4C1D95;
+    color: white;
+}
+
+.listNonBullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
