@@ -51,7 +51,7 @@ export default function TabContainer (props) {
         {
             name: 'Dragonball Xenoverse 2',
             rating: '4.5/5',
-            description: ` Xenoverse 2 is the fourth Dragon Ball video game to feature character customization, and allows players to choose from five races: Humans, Saiyans, Majins, Namekians and Frieza's race, each with different strengths and weaknesses. The game is very similar to its predecessor in terms of gameplay. It is primarily set in 3D battle arenas modeled after notable locations in the Dragon Ball universe, with the central hub being an expanded version of Toki-Toki City, known as Conton City.  Players also have a much greater role in the story, as their choices can effect how the story unfolds. Multiplayer servers are now able to hold up to 3000 players at once.`
+            description: `Xenoverse 2 is the fourth Dragon Ball video game to feature character customization, and allows players to choose from five races: Humans, Saiyans, Majins, Namekians and Frieza's race, each with different strengths and weaknesses. The game is very similar to its predecessor in terms of gameplay. It is primarily set in 3D battle arenas modeled after notable locations in the Dragon Ball universe, with the central hub being an expanded version of Toki-Toki City, known as Conton City.  Players also have a much greater role in the story, as their choices can effect how the story unfolds. Multiplayer servers are now able to hold up to 3000 players at once.`
         },
         {
             name: 'League of Legends',
